@@ -24,12 +24,11 @@ public class UserController {
 		User user = userService.getById(1);
 		int aa = userService.sdf(user);
 		System.out.println(user.toString());
-
-		
-
-
-
-
+		System.out.println(user.toString());
+		System.out.println(user.toString());
+		System.out.println(user.toString());
+		System.out.println(user.toString());
+		System.out.println("同步到github");
 
 		return "userList";
 	}
